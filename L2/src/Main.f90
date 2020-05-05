@@ -3,8 +3,8 @@ program lab
     character :: prognosis
     logical :: A, B, C, result
 
-    open(unit = 1, file = "In.txt", status = "old", iostat = ios  )
-    open(unit = 2, file = "Out.txt", status = "replace")
+    open(unit = 1, file = "files/In.txt", status = "old", iostat = ios  )
+    open(unit = 2, file = "files/Out.txt", status = "replace")
 
     if (ios == 0) then
         ! Логическое сложение

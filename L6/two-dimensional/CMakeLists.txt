@@ -1,6 +1,6 @@
 cmake_minimum_required (VERSION 3.17)
 
-project ("two-demensional")
+project ("two-dimensional")
 
 add_executable (${PROJECT_NAME} "src/Main.f90")
 

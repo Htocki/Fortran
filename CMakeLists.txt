@@ -14,3 +14,4 @@ set (CMAKE_Fortran_FLAGS "${CMAKE_Fortran_FLAGS} ${dialect}")
 
 add_subdirectory ("L1")
 add_subdirectory ("L2")
+add_subdirectory ("L6")
